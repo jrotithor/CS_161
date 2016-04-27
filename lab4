@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+	string message;
+	cout << "Enter a message: " << endl;
+	cin >> message;
+	cout << "the number of characters is: " << message.length() << endl;
+	for(int i = 0; i < message.length(); i++)
+		cout << message[i] << endl;
+	return 0;
+}
+
